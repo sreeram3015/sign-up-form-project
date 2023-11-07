@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <form class="signup-form">
+            <div class="row">
+                <div class="input-group">
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" name="first-name" id="first-name" required>
+                </div>
+                <div class="input-group">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" name="last-name" id="last-name" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-group">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="phoneNumber">PHONENUMBER</label>
+                    <input type="text" name="phoneNumber" id="phoneNumber" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-group">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <div class="input-group">
+                    <label for="confirm-password">CONFIRM-PASSWORD</label>
+                    <input type="password" name="confirm-password" id="confirm-password" required>
+                </div>
+            </div>
+            <input type="submit" value="Create Account">
+        </form>
+    </div>
 </body>
+
 </html>
